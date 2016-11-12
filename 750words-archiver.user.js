@@ -21,7 +21,7 @@
                 var request = new XMLHttpRequest();
                 request.open('POST', 'https://powerful-cove-69945.herokuapp.com/750', true);
                 request.setRequestHeader('Content-Type', 'application/json');
-                request.send({"body": body, "words": num_words, "date": date });
+                request.send((JSON.stringify({"body": body, "words": num_words, "date": date }));
             }
         }
     });
