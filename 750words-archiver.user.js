@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         750words-archiver
-// @namespace    http://tampermonkey.net/
-// @version      0.9
+// @name         750 Words Archiver
+// @namespace    http://timosand.com/
+// @version      1.0
 // @description  Sends the finished 750words journal to an archiving service on save.
 // @author       Timo Sand <timo.sand@iki.fi>
 // @match        https://750words.com/
